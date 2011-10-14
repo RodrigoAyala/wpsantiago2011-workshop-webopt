@@ -1,0 +1,25 @@
+GIT
+  remote: git://github.com/RodrigoAyala/sinatra.git
+  revision: ffc66771f159e923e588a9e1cd8a5266ab163f17
+  specs:
+    sinatra (1.3.1)
+      rack (~> 1.3, >= 1.3.4)
+      rack-protection (~> 1.1, >= 1.1.2)
+      tilt (~> 1.3, >= 1.3.3)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rack (1.3.4)
+    rack-protection (1.1.4)
+      rack
+    sinatra-static-assets (1.0.0)
+      sinatra (>= 1.1.0)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sinatra!
+  sinatra-static-assets
